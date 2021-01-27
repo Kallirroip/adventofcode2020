@@ -3,7 +3,6 @@ f = open("input4.txt", "r")
 data = f.read()
 data = data.replace('\n',' ')
 list = data.split('  ')
-print(list)
 
 
 def validate_passoprts_no_missing_fields():
